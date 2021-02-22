@@ -1,0 +1,5 @@
+#define writeMOSI_H digitalWrite(mosi_pin, HIGH)
+#define writeMOSI_L digitalWrite(mosi_pin, LOW)
+#define writeSCK_H digitalWrite(sck_pin, HIGH)
+#define writeSCK_L digitalWrite(sck_pin, LOW)
+#define readMISO digitalRead(miso_pin)
